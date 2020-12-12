@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/login_css.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="contenedor">        
+        <!-- ESTE ES EL DIV INICIAL GIL -->
+        
+        <!-- esto es el logo principal -->
+        <div class="header_login">
+            <img src="imagenes/netflix.png" alt="logo principal" class="logo_principal" width="300px">
+        </div>
+           
+        <!-- texto "Iniciar Sesion" -->
+        <div class="texto_iniciar_sesion">
+            <h1 >INICIAR SESION</h1>
+        </div>
+        
+        
+        <!-- el formulario de login -->
+          <div class="formulario_login">
+              <div class="formulario_rellenar_login">
+                  <p><input type="text" name="Email" class="email_form"  id="email" value placeholder="Email"></p>
+
+                  <p><input type="password" name="Contraseña" class="contra_form" id="contraseña" value placeholder="Contraseña"></p>
+
+                  <p><input type="submit" name="Entrar" value="Entrar" class="boton_login" onclick="login()" id="boton_login"></p>
+              </div>
+            
+              <div class="si_no_tienes">
+                <h1 class="sino">
+                    SI NO TIENES UNA CUENTA DESLIZA HACIA ABAJO Y CREATE UNA EN UN INSTANTE
+                </h1>
+                <h1 class="no_tienes">
+                    <strong> NO TIENES CUENTA? REGISTRATE COMPLETAMENTE GRATIS</strong>
+                </h1>
+                <h1 class="no_registro">
+                    <strong> COMO QUE NO TE HAS REGISTRADO?</strong>
+                </h1>
+                <h1 class="sino">l</h1>
+                <h1 class="sino">l</h1>
+                <h1 class="sino">l</h1>
+                <h1 class="sino">v</h1>
+              </div>
+              
+              <!-- texto "Registrarse"" -->
+              <div class="texto_registrarse">
+                   <h1>REGISTRARSE</h1>
+              </div>
+              <!-- FORMULARIO PARA REGISTRARSE -->
+              <div class="formulario_registrarse">
+                <div class="formulario_rellenar_registrarse">
+                    <p><input type="text" name="nombreCompleto" class="contra_form"  id="nombreCompleto" value placeholder="Nombre Completo"></p>
+                    <p><input type="text" name="username" class="veri_contra_form" id="username" value placeholder="Nombre Usuario"></p>
+                    <p><input type="password" name="Contraseña" class="contra_form" id="contraseñaR" value placeholder="Contraseña"></p>
+                    <p><input type="submit" name="Entrar" value="Registrarse" class="boton_login" id="boton_login" onclick="registro()"></p>
+                </div>
+
+          </div>
+
+
+
+
+
+
+
+        <!-- ESTE ES EL DIV FINAL GIL -->
+    </div>
+    <script src="./js/login.js"></script>
+    
+</body>
+</html>

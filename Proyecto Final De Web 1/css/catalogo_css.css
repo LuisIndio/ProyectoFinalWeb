@@ -1,0 +1,87 @@
+body{
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    background-color: black;
+}
+.logo_principal{
+    display:block;
+    margin:auto;
+}
+.accion,.drama,.roman,.series{
+color: white;
+text-align: center;
+font-family: 'Courier New', Courier, monospace;
+
+}
+.peliculas_accion img{
+    display:block;
+    margin:auto;    
+    padding-bottom: 10px;
+}
+.peliculas_drama img{
+    display:block;
+    margin:auto;    
+    padding-bottom: 10px;
+}
+.peliculas_romanticas img{
+    display:block;
+    margin:auto;    
+    padding-bottom: 10px;
+}
+.series img{
+    display:block;
+    margin:auto;    
+    padding-bottom: 10px;
+}
+@media(min-width:768px){
+    .logo_principal{
+        display:flex;
+       justify-content: start;
+       margin: 0px;
+       margin-left: 20px;
+    }
+    .accion,.drama,.roman,.serie{
+        color: white;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 50px;
+        }
+        .peliculas_accion,.peliculas_drama,.peliculas_romanticas,.series{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-left: 10px;
+            overflow-y: scroll;
+            scroll-behavior: smooth;
+            
+                        }
+        .peliculas_accion img{
+            display: block;
+            margin:0;    
+            padding-bottom: 10px;
+            padding-left: 10px;
+        }
+        .peliculas_drama img{
+            margin:0;    
+            padding-bottom: 10px;
+            padding-left: 10px;
+
+        }
+        .peliculas_romanticas img{
+            margin:0;    
+            padding-bottom: 10px;
+            padding-left: 10px;
+
+        }
+        .series img{
+            margin:0;    
+            padding-bottom: 10px;
+            padding-left: 10px;
+
+        }
+
+
+
+
+}

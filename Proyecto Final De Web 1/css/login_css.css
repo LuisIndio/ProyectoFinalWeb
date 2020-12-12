@@ -1,0 +1,151 @@
+body{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+.logo_principal{
+    display:block;
+    margin:auto;
+    padding-top: 50px;
+    padding-bottom:50px ;
+    }
+    .texto_iniciar_sesion{
+        color: white;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+
+    }
+    .formulario_login{
+        text-align: center;
+    }
+    .email_form,.contra_form,.veri_contra_form{
+        padding: 10px 100px;
+        border-radius: 5px;
+    }
+    .boton_login{
+        color: white;
+        background-color: red;
+        border-radius: 5px;
+        padding: 10px 100px;
+        font-size: 20px;
+        font-family: 'Courier New', Courier, monospace;
+
+    }
+    .texto_registrarse{
+        color: white;
+        padding-top: 100px;
+    }
+    .si_no_tienes{
+        padding-top:50px;
+        font-size: 12px;
+        padding-bottom: 50px;
+        color: red;
+    }
+    .no_registro {
+        display: none;
+    }
+    .no_tienes{
+        display: none;
+    }
+    
+    @media(min-width:768px){
+        .contenedor{
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,.75);
+        }
+        body{
+            width: 100%;
+            margin: 0px;
+            padding: 0px;
+            background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/9be55430-39e9-4841-8d38-7b3f5acf4c97/e11eabf0-b7c8-4c7b-a51d-aaa09fabee6a/BO-en-20201207-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+            background-size: cover;
+        }
+        .logo_principal{
+            display:block;
+            margin-left:50px;
+            padding-top: 0px;
+            padding-bottom:50px ;
+            }
+            .texto_iniciar_sesion{
+                color: white;
+                text-align: center;
+                font-size: 40px;
+            }
+            .email_form,.contra_form,.veri_contra_form{
+                padding: 20px 130px;
+                border-radius: 5px;
+            }
+            .boton_login{
+                color: white;
+                background-color: red;
+                border-radius: 5px;
+                padding: 20px 130px;
+                font-size: 20px;
+                
+            }
+            .texto_registrarse{
+                color: white;
+                padding-top: 50px;
+                font-size: 40px;
+            }
+            .si_no_tienes {
+                padding-top:38px;
+                font-size: 30px;
+                padding-bottom: 40px;
+                color: red;
+                font-family: 'Courier New', Courier, monospace;
+            }
+            .sino{
+                display: none;
+            }
+            .no_tienes{
+             display: block;      
+            }
+    }
+    @media(min-width:1024px){
+        .contenedor{
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,.75);
+        }
+        .logo_principal{
+            display:block;
+            margin-left:50px;
+            padding-top: 0px;
+            padding-bottom:0px ;
+            }
+            .texto_iniciar_sesion{
+                color: white;
+                text-align: center;
+                font-size: 40px;
+                font-family: 'Courier New', Courier, monospace;
+
+            }
+            .email_form,.contra_form,.veri_contra_form{
+                padding: 25px 140px;
+                border-radius: 5px;
+            }
+            .boton_login{
+                color: white;
+                background-color: red;
+                border-radius: 5px;
+                padding: 25px 140px;
+                font-size: 20px;
+            }
+            .no_tienes {
+                display: none;
+            }
+            .sino{
+                display: none;
+            }
+            .no_registro{
+                display: block;
+            }
+
+
+        
+    }
+
+    

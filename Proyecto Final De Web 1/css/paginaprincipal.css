@@ -1,0 +1,206 @@
+body{
+    background-color: black;
+    margin:0px;
+    padding:0px;
+    width: 100%;        
+    }
+    .logo_principal {
+    display:block;
+    margin:auto;
+    padding-bottom: 20px;
+    }
+.header{
+    display:block;
+    margin:auto;
+    align-items: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    }
+.boton_principal{
+    background-color: red;
+    color: white;
+    display:block;
+    margin:auto;
+    border-radius: 5px;
+    padding: 10px 100px;
+    font-size: 20px;
+    }
+.imagen_principal1{
+    background-image: url(imagenes/2.jpg);
+    background-size: contain;
+    }
+.imagen_principal2{
+    background-image: url(imagenes/3.jpg);
+    background-size: contain;
+    }
+.imagen_principal3{
+    background-image: url(imagenes/5.jpg);
+    background-size: contain;
+}
+.texto_imagen_principal1,.texto_imagen_principal2,.texto_imagen_principal3{
+    margin: 0px;
+    padding: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: white;
+}
+.formulario{
+    text-align: center;
+    padding-bottom: 50PX;
+}
+.email_form,.contra_form,.veri_contra_form{
+    padding: 10px 100px;
+    border-radius: 5px;
+}
+.registrate{
+    color: white;
+}
+.boton_formulario{
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 100px;
+    font-size: 20px;
+}
+.bandera{
+    width: 70px;
+}
+footer h1{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+footer{
+    text-align: center;
+}
+@media(min-width:768px){
+    .logo_principal {
+        display:block;
+        margin:0px;
+        padding-bottom: 20px;
+        margin-left: 30px;
+        }
+    .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    .boton_principal{
+        background-color: red;
+        color: white;
+        display:block;
+        border-radius: 5px;
+        padding: 10px 100px;
+        font-size: 20px;
+        margin-right: 20px;
+        }
+    .imagen_principal1{
+    background-image: url(imagenes/2.jpg);
+    width: 100%;
+    background-size: cover;
+    }
+    .imagen_principal2{
+    background-image: url(imagenes/3.jpg);
+    width: 100%;
+    background-size: cover;
+    }
+    .imagen_principal3{
+    background-image: url(imagenes/5.jpg);
+    width: 100%;
+    background-size: cover;
+    }
+    .texto_imagen_principal1,.texto_imagen_principal2,.texto_imagen_principal3{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 30px;
+    margin: 0px;
+    padding: 40px;
+    text-align: center;
+    }
+    .email_form,.contra_form,.veri_contra_form{
+        padding: 20px 150px;
+        border-radius: 5px;
+    }
+    .registrate{
+        color: white;
+    }
+    .boton_formulario{
+        background-color: red;
+        border-radius: 5px;
+        color: white;
+        padding: 20px 150px;
+        font-size: 20px;
+    }
+}
+@media(min-width:1024px){
+    body{
+        background-color: black;
+        margin:0px;
+        padding:0px;
+        width: 100%;        
+        }
+        .logo_principal {
+        padding-bottom: 20px;
+        }
+    .header{
+        display:flex;
+        justify-content: space-between;
+        margin:auto;
+        align-items: center;
+        padding-bottom: 50px;
+        padding-top: 50px;
+        }
+        .boton_principal{
+            background-color: red;
+            color: white;
+            display:block;
+            border-radius: 5px;
+            padding: 25px 140px;
+            font-size: 20px;
+            margin-right: 20px;
+            }
+    .imagen_principal1{
+        background-image: url(imagenes/6.jpg);
+        background-size: cover;
+        }
+    .imagen_principal2{
+        background-image: url(imagenes/3.jpg);
+        background-size: cover;
+        }
+    .imagen_principal3{
+        background-image: url(imagenes/5.jpg);
+        background-size: cover;
+    }
+    .texto_imagen_principal1,.texto_imagen_principal2,.texto_imagen_principal3{
+        margin: 0px;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+        color: white;
+        padding-top: 250px;
+    }
+    .formulario{
+        text-align: center;
+        padding-bottom: 50PX;
+    }
+    .email_form,.contra_form,.veri_contra_form{
+        padding: 30px 170px;
+        border-radius: 5px;
+    }
+    .registrate{
+        padding-top: 30px;
+        color: white;
+        font-size: 50px;
+    }
+    .boton_formulario{
+        background-color: red;
+        border-radius: 5px;
+        color: white;
+        padding: 30px 150px;
+        font-size: 20px;
+    }
+
+
+}
+
+
+
+
